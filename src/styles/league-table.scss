@@ -1,0 +1,90 @@
+.league-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.layout-grid {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    justify-content: space-between
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+.lottie-animation {
+    width: 100px;
+    height: 100px;
+}
+
+
+.edit-input {
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+.icon {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.button-actions {
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 10px 16px;
+    background-color:deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reset-button{
+    background-color: crimson;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+
+.league-container {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.league-results-card {
+    display: grid;
+    gap: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f3f3f3;
+}
