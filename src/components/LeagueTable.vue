@@ -231,7 +231,7 @@ const toggleEdit = async (id: number) => {
 const playAllMatches = async () => {
   try {
     allMatches.value = true;
-    const response = await fetch(baseUrl + "/league/simulate-all", {
+    const response = await fetch(baseUrl + "/match-simulation/simulate-all", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -273,7 +273,7 @@ const nextWeekMatches = async () => {
     if (currentWeek.value + 1 == totalWeek.value) {
       allMatches.value = true;
     }
-    const response = await fetch(baseUrl + "/league/simulate-week", {
+    const response = await fetch(baseUrl + "/match-simulation/simulate-week", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
